@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  frontend-app:
+    image: localhost:5000/nextjs-themeplate:latest
+    restart: always
+    ports:
+      - 3000:3000
