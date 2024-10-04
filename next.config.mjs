@@ -6,7 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "graphicsfamily.com",
+        hostname: "flowbite.com",
         port: "",
         pathname: "/**",
       },

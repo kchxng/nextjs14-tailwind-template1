@@ -9,7 +9,7 @@ export default function GuestLayout({ children }: Readonly<Props>) {
   return (
     <div>
       <Header />
-      {children}
+      <div className="p-12">{children}</div>
       <Footer />
     </div>
   );

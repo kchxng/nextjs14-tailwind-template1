@@ -88,6 +88,16 @@ yarn add @hookform/resolvers yup react-hook-form
 # React-medium-image-zoom & react-number-format
 yarn add react-medium-image-zoom react-number-format
 
+# tailwind
+yarn add flowbite
+# module.exports = {
+
+#     plugins: [
+#         require('flowbite/plugin')
+#     ]
+
+# }
+
 # Redux
 yarn add @reduxjs/toolkit
 yarn add react-redux
@@ -121,9 +131,9 @@ const nextConfig = {
 };
 ```
 
-## Tailwind CSS
+## Tailwind CSS 
 
-- UI `https://flowbite.com/blocks/marketing/login/`
+- UI `https://flowbite.com`, Tailwindcss UI for NextJS `https://flowbite.com/docs/getting-started/next-js/`
 
 ## Deployment to container and standalone
 
