@@ -68,35 +68,31 @@ searchParams:{
 # Dependencies
 
 ```bash
-# MUI
-yarn add @mui/material @emotion/react @emotion/styled
-yarn add @mui/icons-material
-
-# Style engine
-yarn add @mui/styled-engine-sc styled-components
-
-# Icons
-yarn add @mui/icons-material
-
 # Roboto font
 yarn add @fontsource/roboto
-
-# Data table
-yarn add @mui/x-data-grid
 yarn add @hookform/resolvers yup react-hook-form
 
 # React-medium-image-zoom & react-number-format
 yarn add react-medium-image-zoom react-number-format
 
 # tailwind
-yarn add flowbite
+# yarn add flowbite
+yarn add flowbite-react
+yarn add react-icons
+
+# `tailwind.config.mjs`  config
+# const flowbite = require("flowbite-react/tailwind");
+# /** @type {import('tailwindcss').Config} */
 # module.exports = {
-
-#     plugins: [
-#         require('flowbite/plugin')
-#     ]
-
-# }
+#   content: [
+#     // ...
+#     flowbite.content(),
+#   ],
+#   plugins: [
+#     // ...
+#     flowbite.plugin(),
+#   ],
+# };
 
 # Redux
 yarn add @reduxjs/toolkit
@@ -131,9 +127,12 @@ const nextConfig = {
 };
 ```
 
-## Tailwind CSS 
+## Tailwind CSS, Flowbite and React Icon
 
 - UI `https://flowbite.com`, Tailwindcss UI for NextJS `https://flowbite.com/docs/getting-started/next-js/`
+- Flowbite UI for react `https://flowbite-react.com/docs/guides/next-js`
+- Config flowbite-react for nextjs `https://flowbite-react.com/docs/guides/next-js`
+- React Icon `https://react-icons.github.io/react-icons/`
 
 ## Deployment to container and standalone
 
